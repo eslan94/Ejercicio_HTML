@@ -1,0 +1,59 @@
+body{
+  background-color: dimgray;
+}
+
+.container{
+  width: 800px;
+  margin:0 auto;
+}
+
+.header{
+  color: white
+}
+
+.header h2{
+  opacity: 0.8;
+  font-size: 22px;
+}
+
+h1, h2{
+  margin: 0;
+}
+
+nav{
+  background-color: orange;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  color: orange;
+  height: 25px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main{
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+}
+
+p a{
+  color: orange
+}
+
+.main content{
+  display: flex;
+  padding: 20px 10px;
+  width: 80%
+}
+
+.sidebar{
+  width: 20%;
+  border-left: 1px solid #ccc;
+  height: fit-content;
+  padding-bottom: 30%;
+  padding-left: 15%;
+}
